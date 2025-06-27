@@ -1,4 +1,3 @@
-import javax.swing.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -17,11 +16,14 @@ public class D51Q21kadai {
     // 変換するメソッド
     public static void calculation(List<Integer> binary2) {
         System.out.println(binary2);
+        /*
+        一つづつバラしたリストを作る
+        for(5の位には16を　4の位には8を　3の位には4を　2の位には２を　１の位には1を)
+        全部並べた数字を出力
+         */
 
-        for (int i = 0; i <= binary2.size() - 1; i++) {
-            System.out.println(binary2.get(i));
             }
         }
-        }
+
 
 
